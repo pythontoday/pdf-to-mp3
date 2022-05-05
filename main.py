@@ -24,7 +24,7 @@ def pdf_to_mp3(file_path='test.pdf', language='en'):
         return f'[+] {file_name}.mp3 saved successfully!\n---Have a good day!---'
         
     else:
-        return 'File not exists, check the file path!'
+        return "The file doesn't exist, check the file path!"
     
     
 def main():
